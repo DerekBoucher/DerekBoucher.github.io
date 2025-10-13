@@ -9,12 +9,18 @@
         "start": "NODE_ENV=production bun src/index.tsx"
     },
     "dependencies": {
+        "bun-plugin-tailwind": "^0.1.2",
         "react": "^19",
         "react-dom": "^19"
     },
     "devDependencies": {
+        "@tailwindcss/cli": "^4.1.14",
+        "@tailwindcss/postcss": "^4.1.14",
+        "@types/bun": "latest",
         "@types/react": "^19",
         "@types/react-dom": "^19",
-        "@types/bun": "latest"
+        "autoprefixer": "^10.4.21",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.1.14"
     }
 }
