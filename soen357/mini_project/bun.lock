@@ -5,6 +5,7 @@
       "name": "bun-react-template",
       "dependencies": {
         "@fontsource/inter": "^5.2.8",
+        "@fontsource/open-sauce-sans": "^5.2.5",
         "bun-plugin-tailwind": "^0.1.2",
         "react": "^19",
         "react-dom": "^19",
@@ -25,6 +26,8 @@
     "@alloc/quick-lru": ["@alloc/quick-lru@5.2.0", "", {}, "sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw=="],
 
     "@fontsource/inter": ["@fontsource/inter@5.2.8", "", {}, "sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg=="],
+
+    "@fontsource/open-sauce-sans": ["@fontsource/open-sauce-sans@5.2.5", "", {}, "sha512-OBgV5xFpy4/mHrSr6/yGMEgkEjf/5uN1WoihtxZUleqsvSQopE2VY1csoLikuzbGICd7p4aAFNg67R4zLd2yDQ=="],
 
     "@isaacs/fs-minipass": ["@isaacs/fs-minipass@4.0.1", "", { "dependencies": { "minipass": "^7.0.4" } }, "sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w=="],
 

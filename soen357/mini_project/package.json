@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@fontsource/inter": "^5.2.8",
+        "@fontsource/open-sauce-sans": "^5.2.5",
         "bun-plugin-tailwind": "^0.1.2",
         "react": "^19",
         "react-dom": "^19"

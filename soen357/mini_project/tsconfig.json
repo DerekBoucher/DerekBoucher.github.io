@@ -23,14 +23,19 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/assets": ["./src/assets/*"]
     },
+    // "moduleSuffixes": [".tsx", ".png", ".ts"],
+
 
     // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
   },
+
+  "include": ["src", "src/types"],
 
   "exclude": ["dist", "node_modules"]
 }
