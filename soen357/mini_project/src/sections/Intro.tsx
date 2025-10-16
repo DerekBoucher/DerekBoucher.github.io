@@ -1,6 +1,6 @@
 export function IntroSection() {
     return (
-        <div className="flex flex-row mb-20">
+        <div className="flex flex-row mb-10">
             <div className="flex-1"></div>
             <div className="flex-3 flex flex-col ml-5 mr-5 mt-10">
                 <h1 className="text-4xl mt-5 underline">Introduction</h1>
