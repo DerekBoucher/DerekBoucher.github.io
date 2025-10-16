@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "@fontsource/open-sauce-sans/index.css";
+
+@theme {
+    --font-open-sauce-sans: "Open Sauce Sans", serif;
+}
+
