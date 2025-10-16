@@ -5,8 +5,9 @@
     "type": "module",
     "scripts": {
         "dev": "bun --hot src/index.tsx",
-        "build": "bun build ./src/index.html --outdir=../../docs --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'",
-        "start": "NODE_ENV=production bun src/index.tsx"
+        "build": "bun run tailwind:build && bun build ./src/index.html --outdir=../../docs --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'",
+        "start": "NODE_ENV=production bun src/index.tsx",
+        "tailwind:build": "bunx tailwindcss -i ./src/index.css -o ../../docs/index.css --minify"
     },
     "dependencies": {
         "@fontsource/inter": "^5.2.8",
