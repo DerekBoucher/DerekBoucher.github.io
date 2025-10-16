@@ -2,11 +2,11 @@ import survey1 from "@/assets/survey_1.png";
 import survey2 from "@/assets/survey_2.png";
 import survey3 from "@/assets/survey_3.png";
 import survey4 from "@/assets/survey_4.png";
-import survey5 from "@/assets/survey_5.png";
 import survey6 from "@/assets/survey_6.png";
 import survey7 from "@/assets/survey_7.png";
 import survey8 from "@/assets/survey_8.png";
 import persona1 from "@/assets/persona_1.png";
+import ImageCarousel from "../components/Carousel";
 
 export function ResearchSection() {
     return (
@@ -48,22 +48,8 @@ export function ResearchSection() {
                         </b>
                     </p>
                 </div>
-                <div className="flex flex-col justify-center bg-white p-5 mt-5 rounded-lg border-[#00000054] border shadow-sm">
-                    <div className="flex flex-row justify-center">
-                        <img
-                            className="mt-5 w-[75%]"
-                            src={survey3}
-                            alt="survey_question_3"
-                        />
-                    </div>
-                    <div className="flex flex-row justify-center">
-                        <img
-                            className="mt-5 mr-5 w-1/2"
-                            src={survey4}
-                            alt="survey_question_4"
-                        />
-                        <img className="mt-5 w-1/2" src={survey6} alt="survey_question_6" />
-                    </div>
+                <div className="bg-white p-5 mt-5 rounded-lg border-[#00000054] border shadow-sm">
+                    <ImageCarousel Images={[survey3, survey4, survey6]} />
                 </div>
 
                 <img className="mt-5" src={survey7} alt="survey_question_7" />
