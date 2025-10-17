@@ -2,7 +2,7 @@ import FadeSection from "../components/FadeSection";
 
 export function IntroSection() {
     return (
-        <div className="flex flex-row mb-10">
+        <div className="flex flex-row pb-10 bg-blue-100">
             <div className="flex-1"></div>
             <div className="flex-3 flex flex-col ml-5 mr-5 mt-10">
                 <FadeSection>
