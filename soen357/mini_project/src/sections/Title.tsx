@@ -1,3 +1,5 @@
+import FadeSection from "../components/FadeSection";
+
 export function TitleSection() {
     return (
         <div className="h-[1000px] bg-blue-100">
@@ -6,10 +8,14 @@ export function TitleSection() {
             </div>
             <div className="flex flex-row items-center h-[100%] justify-center">
                 <div className="bg-blue-600 w-[25px] h-32 mr-3"></div>
-                <div className="flex flex-col">
-                    <div className="text-7xl">Case Study:</div>
-                    <div className="text-7xl">Designing for AI Transparency & Trust</div>
-                </div>
+                <FadeSection>
+                    <div className="flex flex-col">
+                        <div className="text-7xl">Case Study:</div>
+                        <div className="text-7xl">
+                            Designing for AI Transparency & Trust
+                        </div>
+                    </div>
+                </FadeSection>
             </div>
         </div>
     );

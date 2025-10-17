@@ -1,3 +1,4 @@
+import FadeSection from "./components/FadeSection";
 import IntroSection from "./sections/Intro";
 import ResearchSection from "./sections/Research";
 import TitleSection from "./sections/Title";
