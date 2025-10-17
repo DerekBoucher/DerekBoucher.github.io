@@ -5,7 +5,12 @@ import design3 from "@/assets/design_3.png";
 import design4 from "@/assets/design_4.png";
 import design5 from "@/assets/design_5.png";
 import design6 from "@/assets/design_6.png";
-import design7 from "@/assets/design_7.png";
+
+import wireframe1 from "@/assets/wireframe_1.png";
+import wireframe2 from "@/assets/wireframe_2.png";
+import wireframe3 from "@/assets/wireframe_3.png";
+import wireframe4 from "@/assets/wireframe_4.png";
+import wireframe5 from "@/assets/wireframe_5.png";
 
 export default function Design() {
     return (
@@ -14,6 +19,38 @@ export default function Design() {
             <div className="flex-3 flex flex-col ml-5 mr-5 mb-5 mt-10">
                 <FadeSection>
                     <h1 className="text-4xl mt-5 underline">Design</h1>
+                    <h2 className="text-2xl mt-5 underline">Wireframes</h2>
+                    <div className="flex-row flex justify-center h-[500px] mt-5">
+                        <img
+                            src={wireframe1}
+                            className="mr-20 flex flex-col bg-white p-5 rounded-lg border-[#00000054] border shadow-md"
+                            alt="wireframe"
+                        />
+                        <img
+                            src={wireframe2}
+                            className="mr-20 flex flex-col bg-white p-5 rounded-lg border-[#00000054] border shadow-md"
+                            alt="wireframe"
+                        />
+                        <img
+                            src={wireframe3}
+                            className="mr-20 flex flex-col bg-white p-5 rounded-lg border-[#00000054] border shadow-md"
+                            alt="wireframe"
+                        />
+                    </div>
+                    <div className="flex-row flex justify-center h-[500px] mt-5">
+                        <img
+                            src={wireframe4}
+                            className="mr-20 flex flex-col bg-white p-5 rounded-lg border-[#00000054] border shadow-md"
+                            alt="wireframe"
+                        />
+                        <img
+                            src={wireframe5}
+                            className="mr-20 flex flex-col bg-white p-5 rounded-lg border-[#00000054] border shadow-md"
+                            alt="wireframe"
+                        />
+                    </div>
+                    <h2 className="text-2xl mt-5 underline">High-Fi Mockups</h2>
+
                     <p className="text-lg mt-5">
                         Below is the final high fidelity mockups that guide the user through
                         the AI assitant flow.{" "}
