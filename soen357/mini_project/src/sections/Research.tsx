@@ -1,5 +1,7 @@
-import survey1 from "@/assets/survey_1.png";
-import survey2 from "@/assets/survey_2.png";
+import survey1_new from "@/assets/survey_new_3.png";
+import survey2_new from "@/assets/survey_new_4.png";
+import survey4_new from "@/assets/survey_new_5.png";
+import survey5_new from "@/assets/survey_new_6.png";
 import survey3 from "@/assets/survey_3.png";
 import survey4 from "@/assets/survey_4.png";
 import survey6 from "@/assets/survey_6.png";
@@ -28,56 +30,42 @@ export function ResearchSection() {
                 </p>
                 <FadeSection>
                     <h2 className="text-2xl mt-5 underline">Survey</h2>
-                    <div className="mt-5 flex flex-col bg-white p-5 rounded-lg border-[#00000054] border shadow-md">
-                        <div className="flex flex-row">
-                            <img
-                                className="mt-5 mr-5 w-1/2"
-                                src={survey1}
-                                alt="survey_question_1"
-                            />
-                            <img
-                                className="mt-5 w-1/2"
-                                src={survey2}
-                                alt="survey_question_2"
-                            />
-                        </div>
-                        <p className="text-lg mt-5">
-                            The first set of questions we're geared towards knowing how
-                            familiar our survey sample is with AI tools. This can give us a
-                            sense of how conservative or progressive the design should be.
-                        </p>
-                        <p className="text-lg mt-5">
-                            The concensus seemed to be that the majority of them are{" "}
-                            <b>
-                                familiar with AI and use it in some moderate capacity in a
-                                day-to-day basis.
-                            </b>
-                        </p>
-                    </div>
-                    <div className="bg-white overflow-clip mt-5 rounded-lg border-[#00000054] border shadow-sm">
-                        <ImageCarousel Images={[survey3, survey4, survey6]} />
+                    <div className="mt-5 flex flex-col bg-white rounded-lg border-[#00000054] border shadow-md">
+                        <ImageCarousel Images={[survey4_new, survey5_new, survey6]} />
                         <div className="p-5">
+                            <p className="text-lg">
+                                The first set of questions we're geared towards knowing how
+                                familiar our survey sample is with AI tools. This can give us a
+                                sense of how conservative or progressive the design should be.
+                            </p>
                             <p className="text-lg mt-5">
-                                Next up, we gather information on the perception of users when
-                                they interact with AI tools.{" "}
+                                The concensus seemed to be that the majority of them are{" "}
+                                <b>
+                                    familiar with AI and use it in some moderate capacity in a
+                                    day-to-day basis.
+                                </b>{" "}
                                 <b>
                                     Unsurprisingly, every participant reported having had at least
                                     one negative experience using AI.
-                                </b>{" "}
-                                Despite this, the majority still have some willingness to use
-                                the technology. When it came to questions around features that
-                                would increase their trust towards these tools,{" "}
-                                <b>
-                                    the entirety of the sample set mentioned that having some sort
-                                    of user feedback on AI responses would increase their trust in
-                                    the application.{" "}
                                 </b>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="bg-white overflow-clip mt-5 rounded-lg border-[#00000054] border shadow-sm">
+                        <ImageCarousel
+                            Images={[survey3, survey4, survey2_new, survey1_new]}
+                        />
+                        <div className="p-5">
+                            <p className="text-lg">
+                                Next up, we gather information on the perception of users when
+                                they interact with AI tools.{" "}
                             </p>
                             <p className="text-lg mt-5">
                                 {" "}
-                                Despite this, the majority still have some willingness to use
-                                the technology. When it came to questions around features that
-                                would increase their trust towards these tools,{" "}
+                                The majority still have some willingness to use the technology,
+                                irregardless of their previous experiences. When it came to
+                                questions around features that would increase their trust
+                                towards these tools,{" "}
                                 <b>
                                     the entirety of the sample set mentioned that having some sort
                                     of user feedback on AI responses would increase their trust in
