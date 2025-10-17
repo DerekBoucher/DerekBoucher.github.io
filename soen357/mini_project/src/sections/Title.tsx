@@ -1,5 +1,5 @@
 import FadeSection from "../components/FadeSection";
-import hero from "@/assets/ai_hero.jpg";
+import hero from "@/assets/hero.png";
 
 export function TitleSection() {
     return (
@@ -11,13 +11,16 @@ export function TitleSection() {
                 className={
                     "flex flex-row items-center h-[100%] justify-center bg-cover"
                 }
+                style={{ backgroundImage: `url(${hero})` }}
             >
-                <div className="bg-blue-600 w-[25px] h-32 mr-3"></div>
                 <FadeSection>
-                    <div className="flex flex-col">
-                        <div className="text-7xl">Case Study:</div>
-                        <div className="text-7xl">
-                            Designing for AI Transparency & Trust
+                    <div className="bg-white flex flex-row p-5 rounded-lg border-[#00000054] border shadow-md opacity-95">
+                        <div className="bg-blue-600 w-[25px] h-32 mr-3"></div>
+                        <div className="flex flex-col">
+                            <div className="text-7xl">Case Study:</div>
+                            <div className="text-7xl">
+                                Designing for AI Transparency & Trust
+                            </div>
                         </div>
                     </div>
                 </FadeSection>
