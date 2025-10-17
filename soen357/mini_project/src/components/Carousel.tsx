@@ -30,7 +30,7 @@ export function ImageCarousel(props: ImageCarouselProps) {
                     alt={`Slide ${currentIndex + 1}`}
                 />
             </div>
-            <div className="flex flex-row justify-end w-[100%]">
+            <div className="flex flex-row justify-end w-[100%] pr-5">
                 <button
                     className={
                         "mr-5 " +

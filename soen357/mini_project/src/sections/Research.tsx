@@ -7,6 +7,7 @@ import survey7 from "@/assets/survey_7.png";
 import survey8 from "@/assets/survey_8.png";
 import persona1 from "@/assets/persona_1.png";
 import persona2 from "@/assets/persona_2.png";
+import journeyMap from "@/assets/journey_map.png";
 import ImageCarousel from "../components/Carousel";
 
 export function ResearchSection() {
@@ -49,37 +50,39 @@ export function ResearchSection() {
                         </b>
                     </p>
                 </div>
-                <div className="bg-white p-5 mt-5 rounded-lg border-[#00000054] border shadow-sm">
+                <div className="bg-white overflow-clip mt-5 rounded-lg border-[#00000054] border shadow-sm">
                     <ImageCarousel
                         Images={[survey3, survey4, survey6, survey7, survey8]}
                     />
-                    <p className="text-lg mt-5">
-                        Next up, we gather information on the perception of users when they
-                        interact with AI tools.{" "}
-                        <b>
-                            Unsurprisingly, every participant reported having had at least one
-                            negative experience using AI.
-                        </b>{" "}
-                        Despite this, the majority still have some willingness to use the
-                        technology. When it came to questions around features that would
-                        increase their trust towards these tools,{" "}
-                        <b>
-                            the entirety of the sample set mentioned that having some sort of
-                            user feedback on AI responses would increase their trust in the
-                            application.{" "}
-                        </b>
-                    </p>
-                    <p className="text-lg mt-5">
-                        {" "}
-                        Despite this, the majority still have some willingness to use the
-                        technology. When it came to questions around features that would
-                        increase their trust towards these tools,{" "}
-                        <b>
-                            the entirety of the sample set mentioned that having some sort of
-                            user feedback on AI responses would increase their trust in the
-                            application.{" "}
-                        </b>
-                    </p>
+                    <div className="p-5">
+                        <p className="text-lg mt-5">
+                            Next up, we gather information on the perception of users when
+                            they interact with AI tools.{" "}
+                            <b>
+                                Unsurprisingly, every participant reported having had at least
+                                one negative experience using AI.
+                            </b>{" "}
+                            Despite this, the majority still have some willingness to use the
+                            technology. When it came to questions around features that would
+                            increase their trust towards these tools,{" "}
+                            <b>
+                                the entirety of the sample set mentioned that having some sort
+                                of user feedback on AI responses would increase their trust in
+                                the application.{" "}
+                            </b>
+                        </p>
+                        <p className="text-lg mt-5">
+                            {" "}
+                            Despite this, the majority still have some willingness to use the
+                            technology. When it came to questions around features that would
+                            increase their trust towards these tools,{" "}
+                            <b>
+                                the entirety of the sample set mentioned that having some sort
+                                of user feedback on AI responses would increase their trust in
+                                the application.{" "}
+                            </b>
+                        </p>
+                    </div>
                 </div>
 
                 <h2 className="text-2xl mt-5 underline">Personas</h2>
@@ -130,6 +133,24 @@ export function ResearchSection() {
                         service app, the design would need to emphasize the exactitude of
                         the responses that the AI assistant is presenting.
                     </p>
+                </div>
+
+                <h2 className="text-2xl mt-5 underline">Journey Map</h2>
+                <p className="text-lg mt-5">
+                    Here we investigate a hypothetical interaction with our persona
+                    introduced before, <b>Rejean Bouchard</b>. The goal here is to capture
+                    Rejean's emotional state through the various touchpoints that our AI
+                    assisted governmental app offers. The begining emotion is{" "}
+                    <b>skepticism</b>, which as mentioned before, is quite typical for
+                    this archetype.
+                </p>
+                <p className="text-lg mt-5">
+                    Despite all this, the journey towards the end leaves them feeling
+                    somewhat satisfied with the experience, and has their expectations
+                    exceeded.
+                </p>
+                <div className="mt-5 rounded-lg border-[#00000054] bg-white border shadow-md p-1 flex flex-col">
+                    <img src={journeyMap} alt="journey_map" />
                 </div>
 
                 <div className="mt-5"></div>
