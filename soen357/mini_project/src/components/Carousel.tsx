@@ -23,8 +23,8 @@ export function ImageCarousel(props: ImageCarouselProps) {
     };
 
     return (
-        <div className="flex flex-col justify-center items-center">
-            <div className="flex flex-row justify-center h-[600px]">
+        <div className="flex flex-col">
+            <div className="flex flex-row h-[600px]">
                 <img
                     src={props.Images[currentIndex]}
                     alt={`Slide ${currentIndex + 1}`}
